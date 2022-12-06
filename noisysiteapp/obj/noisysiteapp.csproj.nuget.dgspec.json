@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/noisysiteapp.csproj": {}
+    "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj": {}
   },
   "projects": {
-    "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/noisysiteapp.csproj": {
+    "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
+        "projectUniqueName": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
         "projectName": "noisysiteapp",
-        "projectPath": "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
+        "projectPath": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
         "packagesPath": "/home/dad/.nuget/packages/",
-        "outputPath": "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/obj/",
+        "outputPath": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/dad/.nuget/NuGet/NuGet.Config"
