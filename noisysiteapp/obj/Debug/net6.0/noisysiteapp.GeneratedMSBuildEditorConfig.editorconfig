@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/BlogRoll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmxvZ1JvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
