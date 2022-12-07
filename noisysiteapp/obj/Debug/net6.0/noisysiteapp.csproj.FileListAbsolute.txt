@@ -50,3 +50,5 @@
 /home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/obj/Debug/net6.0/ref/noisysiteapp.dll
 /home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/obj/Debug/net6.0/noisysiteapp.pdb
 /home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/obj/Debug/net6.0/noisysiteapp.genruntimeconfig.cache
+/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/bin/Debug/net6.0/LiteDB.dll
+/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/obj/Debug/net6.0/noisysiteapp.csproj.CopyComplete

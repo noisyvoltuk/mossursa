@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qVfko9YJxSFfvRQGR1+fS7BJ8Ff1W6er+XlP0ThOob9p82U1Lq0BO6j+rECJyTVvepcYvXO8lz4OtNDQgGWljA==",
+  "dgSpecHash": "y2w+WruAjsUUO0UL0Iiu7VxWZBsz4XzOZrgUzLm7zsjWmvGTZ78dqMzy/XgP3iREHGjqw5Hnens4ZdiXqK7i8w==",
   "success": true,
   "projectFilePath": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/dad/.nuget/packages/litedb/5.0.12/litedb.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
