@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-
+using noisysiteapp.sitedata;
 
 namespace noisysiteapp.api;
 
@@ -10,13 +10,18 @@ namespace noisysiteapp.api;
 [Route("api/[controller]")]
 public class EmbedController : ControllerBase
 {
+    //https://blog.georgekosmidis.net/using-litedb-in-an-asp-net-core-api.html
+
+    private ISiteDataProvider _siteDataProvider;
+
+    public EmbedController(ISiteDataProvider siteDataProvider){
+        _siteDataProvider = siteDataProvider;
+    }
 
     [HttpGet]
     public IActionResult GetAll()
     {
-        List<Embed> embeds = new List<Embed>();
-        embeds.Add(new Embed{Id="1234", Subject="music", Link="https://test.com", Content="<h1>content here </h1>"});
-        embeds.Add(new Embed{Id="4321", Subject="music", Link="https://test.com/22", Content="<h1>more content here </h1>"});
+       var embeds = _siteDataProvider.GetEmbeds();
         return Ok(embeds);
     }
 
@@ -26,4 +31,15 @@ public class EmbedController : ControllerBase
 
         return Ok("a one");
     }
+
+    [HttpPost]
+    public ActionResult<Embed> Insert(Embed dto)
+    {
+        var success = _siteDataProvider.InsertEmbed(dto);
+        if (success)
+            return Ok();
+        else    
+            return BadRequest();
+    }
+
 }
