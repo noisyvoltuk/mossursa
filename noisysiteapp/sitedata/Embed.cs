@@ -3,7 +3,9 @@ public class Embed{
 
     public string Id{get; set;}
     public string? Subject {get; set;}
-    public string? Link {get; set;}
+    public string? LinkUrl {get; set;}
+
+    public string EmbeddedLink {get; set;}
 
     public string Content {get; set;}
 

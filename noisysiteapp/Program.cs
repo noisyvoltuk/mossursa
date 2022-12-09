@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
-builder.Services.AddTransient<ISiteDataProvider, SiteDataProvider>();
+builder.Services.AddTransient<ISiteDataProvider, CosmosDBProvider>();
 
 var app = builder.Build();
 
