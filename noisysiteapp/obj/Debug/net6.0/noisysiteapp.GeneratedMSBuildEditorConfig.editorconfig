@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = noisysiteapp
 build_property.RootNamespace = noisysiteapp
-build_property.ProjectDir = /home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/
+build_property.ProjectDir = /home/dad/Source/NoisySite/noisyondocker/noisysiteapp/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp
+build_property.MSBuildProjectDirectory = /home/dad/Source/NoisySite/noisyondocker/noisysiteapp
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/About.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/BlogRoll.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/BlogRoll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmxvZ1JvbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/Error.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/Index.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/Links.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/Links.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlua3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/_ViewImports.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/_ViewStart.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/Pages/Shared/_Layout.cshtml]
+[/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-czk1t0t7z9
