@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/dad/.nuget/packages/": {}
+    "C:\\Users\\dad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
+      "projectUniqueName": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj",
       "projectName": "noisysiteapp",
-      "projectPath": "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
-      "packagesPath": "/home/dad/.nuget/packages/",
-      "outputPath": "/home/dad/Source/NoisySite/noisyondocker/noisysiteapp/obj/",
+      "projectPath": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj",
+      "packagesPath": "C:\\Users\\dad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dad/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

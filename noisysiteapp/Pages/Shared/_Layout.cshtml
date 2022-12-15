@@ -25,11 +25,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Links">Links</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/BlogRoll">Blog Roll</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Making">Making</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Listen">Listen</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/About">About</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Watch">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Documentaries">Documentaries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Podcasts">Podcasts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Books">Books</a>
                         </li>
                     </ul>
                 </div>
@@ -37,9 +50,19 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <div class="row">
+
+         <div class="col-5">
+            @await RenderSectionAsync("LeftCol", required: false)
+        </div>
+        <div class="col">
             @RenderBody()
-        </main>
+        </div>
+        <div class="col-2">
+            @await RenderSectionAsync("RightCol", required: false)
+        </div>
+
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
