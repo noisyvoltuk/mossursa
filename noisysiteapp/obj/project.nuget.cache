@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PtwfostG3/hObyP7VIP8FTQBoQn0ZliQYfPByDKgFY3OFEGJsH4l82eN2yPak65izCezoxUcDsO4A5+KpBTB1g==",
+  "dgSpecHash": "qVfko9YJxSFfvRQGR1+fS7BJ8Ff1W6er+XlP0ThOob9p82U1Lq0BO6j+rECJyTVvepcYvXO8lz4OtNDQgGWljA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj",
+  "projectFilePath": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

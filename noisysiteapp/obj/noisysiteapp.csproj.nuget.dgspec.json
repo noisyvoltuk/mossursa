@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj": {}
+    "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj": {
+    "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj",
+        "projectUniqueName": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
         "projectName": "noisysiteapp",
-        "projectPath": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\noisysiteapp.csproj",
-        "packagesPath": "C:\\Users\\dad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dad\\source\\repos\\noisyondocker\\noisysiteapp\\obj\\",
+        "projectPath": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/noisysiteapp.csproj",
+        "packagesPath": "/home/dad/.nuget/packages/",
+        "outputPath": "/home/dad/Source/NoisyVoltSite/noisyondocker/noisysiteapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/dad/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
         }
       }
     }
