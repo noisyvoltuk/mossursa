@@ -4,12 +4,12 @@ WORKDIR /source
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
-COPY noisysiteapp/*.csproj ./noisysiteapp/
+COPY mossursa/*.csproj ./mossursa/
 RUN dotnet restore
 
 # copy everything else and build app
-COPY noisysiteapp/. ./noisysiteapp/
-WORKDIR /source/noisysiteapp
+COPY mossursa/. ./mossursa/
+WORKDIR /source/mossursa
 RUN dotnet publish -c release -o /app 
 
 # final stage/image
@@ -17,4 +17,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build-env /app ./
 EXPOSE 80
-ENTRYPOINT ["dotnet", "noisysiteapp.dll"]
+ENTRYPOINT ["dotnet", "mossursa.dll"]
